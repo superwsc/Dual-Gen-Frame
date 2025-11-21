@@ -20,15 +20,15 @@ In recent years, deep learning technology has automated the diagnosis of gastroi
 
 Overview of our proposed dual-generalization framework:
 
-![train](readme_image\train.png)
+![train](readme_image/train.png)
 
 Overview of our Image Guidance and Laplacian Fusion Module (IGLFM):
 
-![main2](readme_image\main2.png)
+![main2](readme_image/main2.png)
 
 Overview of Brightness Level Generalization Module (BLGM) and Wavelet Segmentation Generalization Module (WSGM):
 
-![post](readme_image\post.png)
+![post](readme_image/post.png)
 
 
 
@@ -95,3 +95,4 @@ The TRAIN_DIR_KCL, TRAIN_DIR_RLE,  VAL_DIR_KCL, VAL_DIR_RLE should have 2 subfol
 
 
 If you find our code or paper useful, please cite our paper and give us a star ⭐!
+
