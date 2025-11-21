@@ -1,4 +1,4 @@
-**This is the official repository of **
+**This is the official repository of**
 
 **"A Dual-Generalization Low-Light Enhancement Framework for Capsule Endoscopy Image Restoration and Segmentation".**
 
@@ -90,6 +90,7 @@ python trainBLGM.py
 ```
 
 The TRAIN_DIR_KCL, TRAIN_DIR_RLE,  VAL_DIR_KCL, VAL_DIR_RLE should have 2 subfolders named as 'high' and 'low'.
+
 
 
 
