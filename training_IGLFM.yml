@@ -18,9 +18,9 @@ TRAINING:
   VAL_PS: 256
   RESUME: True
 
-  TRAIN_DIR_KCL: 'KCL/train485'           # path to training data
+  TRAIN_DIR_KCL: 'KCL/training'           # path to training data
   TRAIN_DIR_RLE: 'RLE/training'
-  VAL_DIR_KCL: 'KCL/val15'              # path to validation data
+  VAL_DIR_KCL: 'KCL/val'              # path to validation data
   VAL_DIR_RLE: 'RLE/val'
   SAVE_DIR: './checkpoints_IGLFM/'    # path to save models and images
   SAVE_IMAGES: True
