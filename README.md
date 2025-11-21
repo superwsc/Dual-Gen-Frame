@@ -57,7 +57,7 @@ If you just want to use the backbone  (IGLFM),, you can change the --input_dir, 
 python inference.py --save_images --restore
 ```
 
-If you just want to use the backbone  (IGLFM) and BLGM,, you can change the --input_dir,  --restore_dir,  --post_dir, --weights, --post_weights in **inference.py**. And use the command:
+If you just want to use the backbone  (IGLFM) and BLGM simultaneously, you can change the --input_dir,  --restore_dir,  --post_dir, --weights, --post_weights in **inference.py**. And use the command:
 
 ```
 python inference.py --save_images --restore --post
@@ -75,7 +75,7 @@ python evaluation.py -dirA path1 -dirB path2
 
 ### Training of IGLFM
 
-Modify the training_IGLFM.yml. 
+Modify the training_IGLFM.yml and use the command:
 
 ```
 python trainIGLFM.py 
@@ -83,16 +83,17 @@ python trainIGLFM.py
 
 ### Training of BLGM
 
-Modify the training_BLGM.yml. 
+Modify the training_BLGM.yml and use the command:
 
 ```
 python trainBLGM.py 
 ```
 
-The TRAIN_DIR_KCL, TRAIN_DIR_RLE,  VAL_DIR_KCL, VAL_DIR_RLE should have 2 subfolders named as 'high' and 'low'.
+The TRAIN_DIR_KCL, TRAIN_DIR_RLE,  VAL_DIR_KCL, VAL_DIR_RLE in all yml files should have 2 subfolders named as 'high' and 'low'.
 
 
 
 
 If you find our code or paper useful, please cite our paper and give us a star ⭐!
+
 
