@@ -51,7 +51,7 @@ pip install requirements.txt
 
 ## Inference
 
-If you just want to use the backbone  (IGLFM),, you can change the --input_dir,  --restore_dir, --weights in **inference.py**. And use the command:
+If you just want to use the backbone  (IGLFM), you can change the --input_dir,  --restore_dir, --weights in **inference.py**. And use the command:
 
 ```
 python inference.py --save_images --restore
@@ -75,7 +75,7 @@ python evaluation.py -dirA path1 -dirB path2
 
 ### Training of IGLFM
 
-Modify the training_IGLFM.yml and use the command:
+Modify the **training_IGLFM.yml** and use the command:
 
 ```
 python trainIGLFM.py 
@@ -83,7 +83,7 @@ python trainIGLFM.py
 
 ### Training of BLGM
 
-Modify the training_BLGM.yml and use the command:
+Modify the **training_BLGM.yml** and use the command:
 
 ```
 python trainBLGM.py 
@@ -94,6 +94,7 @@ The TRAIN_DIR_KCL, TRAIN_DIR_RLE,  VAL_DIR_KCL, VAL_DIR_RLE in all yml files sho
 
 
 
-If you find our code or paper useful, please cite our paper and give us a star ⭐!
+**If you find our code or paper useful, please cite our paper and give us a star ⭐!**
+
 
 
