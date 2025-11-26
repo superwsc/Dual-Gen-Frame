@@ -96,5 +96,18 @@ The TRAIN_DIR_KCL, TRAIN_DIR_RLE,  VAL_DIR_KCL, VAL_DIR_RLE in all yml files sho
 
 **If you find our code or paper useful, please cite our paper and give us a star ⭐!**
 
+```
+@ARTICLE{DGF_TMI,
+  author={Wang, Shuocheng and Liu, Jiaming and Zhu, Ruoxi and Huang, Chengkang and Jing, Minge and Fan, Yibo},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={A Dual-Generalization Low-Light Enhancement Framework for Capsule Endoscopy Image Restoration and Segmentation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Wireless capsule endoscopy;low-light image enhancement;deep learning;image segmentation},
+  doi={10.1109/TMI.2025.3636480}}
+
+```
 
 
